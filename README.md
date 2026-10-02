@@ -4,7 +4,6 @@ A Telegram Mini App for monitoring industrial safety compliance. The application
 
 Built for the Space and Miran hackathon on 12 to 14 November 2025.
 
-The application lives in the `Miran/` directory. The root of the repository only carries this file.
 
 ## Features
 
@@ -39,7 +38,7 @@ None. Configuration is applied from inside the Telegram client, not through buil
 
 ```bash
 git clone https://github.com/glcskl/hackathongreatstoneminsk.git
-cd hackathongreatstoneminsk/Miran
+cd hackathongreatstoneminsk
 ```
 
 ### Running
@@ -55,10 +54,9 @@ Then point a Telegram Web App button at the served URL. A Mini App must be serve
 ## Project structure
 
 ```
-Miran/
-  index.html      single-page application, the whole interface
-  equipment/      equipment records and check data
-  README.md       project notes from the hackathon
+index.html      single-page application, the whole interface
+equipment/      equipment records and check data
+README.md       project notes from the hackathon
 ```
 
 ## Implementation notes
